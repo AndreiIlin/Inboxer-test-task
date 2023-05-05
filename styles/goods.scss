@@ -1,0 +1,19 @@
+.goods {
+  margin-top: 44px;
+
+  &__title {
+    font-size: $fz-head;
+    color: $light;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__container {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+

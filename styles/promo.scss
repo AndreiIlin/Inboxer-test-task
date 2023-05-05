@@ -1,0 +1,14 @@
+.promo {
+  margin-top: 50px;
+
+  &__title {
+    font-size: $fz-head;
+    color: $light;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__card {
+    margin-top: 23px;
+  }
+}

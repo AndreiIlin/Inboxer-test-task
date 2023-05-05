@@ -1,0 +1,59 @@
+.good {
+  flex: 1 1 calc(100% / 3 - 20px);
+  background: $light;
+  border-radius: 4px;
+
+  &_wide {
+    flex: 1 1 calc(100% / 2 - 10px);
+  }
+
+  &__image {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_wide {
+      height: 180px;
+    }
+  }
+
+  &__content {
+    padding: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__prices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    &_solo {
+      justify-content: center;
+    }
+  }
+
+  &__price {
+    font-size: $fz-price;
+    font-weight: 700;
+
+    &_old {
+      font-size: $fz-main;
+      font-weight: 400;
+      color: $old-price;
+      text-decoration: line-through;
+    }
+  }
+
+  &__button {
+    padding: 14px;
+  }
+}
